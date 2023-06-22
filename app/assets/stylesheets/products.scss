@@ -1,0 +1,19 @@
+.products {
+  margin: 0;
+  padding: 0.5em;
+  a {
+    padding: 0.354em 0.5em;
+    border-radius: 0.354em;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    padding: 0.5em;
+    margin: 0;
+  }
+
+  tr.list_line_odd {
+    background-color: #effeef;
+  }
+}

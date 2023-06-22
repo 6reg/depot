@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+#
+Product.delete_all
+# . . . 
+Product.create!(title: 'Build Chatbot Interactions',
+               description:
+               %{<p>
+                 <em>Responsive, Intuitive Interfaces with Ruby</em>
+                 Next step in user interface evolution.</p>}, 
+                 image_url: 'dpchat.jpg',
+                 price: 20.00)
+# . . .
+
