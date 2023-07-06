@@ -60,4 +60,8 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to products_url
   end
+
+  test "should go back to products" do
+    get products_url
+  end
 end
