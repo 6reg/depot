@@ -1,7 +1,6 @@
-module CurrentCart # concerns dir allowws sharing of common code
-  # with all controllers
+module CurrentCart
 
-  private
+  private # private methods can't be used as actions on controllers
 
     def set_cart
       @cart = Cart.find session[:cart_id] # get cart id from session object
